@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="top"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:paddingLeft="25dip"
+    android:paddingRight="25dip" >
+
+    <LinearLayout
+        android:id="@+id/common_dialog_body_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_dialog_bg"
+        android:orientation="vertical"
+        android:padding="0.5dp" >
+
+        <LinearLayout
+            android:id="@+id/common_dialog_content_ll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_dialog_bg_top"
+            android:orientation="vertical" >
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fadingEdge="none" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <TextView
+                        android:id="@+id/common_dialog_title_tv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/editText_padding"
+                        android:textColor="@color/text_title_jet"
+                        android:textSize="@dimen/text_size_title"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/common_dialog_message_tv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/editText_padding"
+                        android:textColor="@color/text_title_jet"
+                        android:lineSpacingExtra="5dp"
+                        android:textSize="@dimen/text_size_title" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/common_dialog_bottom_ll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0.5dp"
+            android:background="@drawable/common_dialog_bg_bottom"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <Button
+                android:id="@+id/common_dialog_button_left"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/common_dialog_bg_button_left"
+                android:padding="@dimen/editText_padding"
+                android:textColor="@color/dodger_blue"
+                android:textSize="@dimen/text_size_top"
+                android:visibility="visible" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="fill_parent"
+                android:background="@color/line_platinum" />
+
+            <Button
+                android:id="@+id/common_dialog_button_right"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:background="@drawable/common_dialog_bg_button_right"
+                android:padding="@dimen/editText_padding"
+                android:textColor="@color/dodger_blue"
+                android:textSize="@dimen/text_size_top"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

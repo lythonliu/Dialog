@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--LoadingDialog-->
+    <string name="load_dialog_loading">Loading</string>
+    <!--CommonDialog-->
+    <string name="app_name">Dialog</string>
+    <string name="common_dialog_cancle">Continue editing</string>
+    <string name="common_dialog_sureback">OK to exit</string>
+    <string name="common_dialog_cancel">Give up</string>
+    <string name="common_dialog_continue">Continue editing</string>
+    <string name="common_dialog_msg_forgive">To give up the operation just?</string>
+</resources>

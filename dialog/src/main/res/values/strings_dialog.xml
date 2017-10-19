@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--LoadingDialog-->
+    <string name="load_dialog_loading">载入中</string>
+    <!--CommonDialog-->
+    <string name="app_name">Dialog</string>
+    <string name="common_dialog_sureback">确定退出</string>
+    <string name="common_dialog_cancle">继续编辑</string>
+    <string name="common_dialog_msg_forgive">要放弃刚刚的操作么？</string>
+    <string name="common_dialog_cancel">放弃</string>
+    <string name="common_dialog_continue">继续编辑</string>
+</resources>

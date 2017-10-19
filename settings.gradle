@@ -1,0 +1,2 @@
+include ':app', ':dialog'
+project(':dialog').projectDir = new File('dialog')
