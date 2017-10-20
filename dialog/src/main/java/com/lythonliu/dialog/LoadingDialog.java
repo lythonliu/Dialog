@@ -9,7 +9,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.view.View;
 import android.widget.TextView;
 
-import com.lythonliu.mylibrary.R;
+import com.lythonliu.dialog.R;
 
 /**
  * Created by lythonliu on 2015/5/9.

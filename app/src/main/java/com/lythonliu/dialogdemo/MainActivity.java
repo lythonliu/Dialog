@@ -1,8 +1,11 @@
-package com.lythonliu.dialog;
+package com.lythonliu.dialogdemo;
 
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.lythonliu.dialog.CommonDialog;
+import com.lythonliu.dialog.LoadingDialog;
 
 public class MainActivity extends AppCompatActivity {
 
