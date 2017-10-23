@@ -10,7 +10,7 @@
               android:paddingRight="25dip">
 
     <LinearLayout
-        android:id="@+id/common_dialog_body_ll"
+        android:id="@id/common_dialog_body_ll"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/common_dialog_bg"
@@ -18,7 +18,7 @@
         android:padding="0.5dp" >
 
         <LinearLayout
-            android:id="@+id/common_dialog_content_ll"
+            android:id="@id/common_dialog_content_ll"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/common_dialog_bg_top"
@@ -34,7 +34,7 @@
                     android:paddingTop="5dp" >
 
                     <TextView
-                        android:id="@+id/common_dialog_title_tv"
+                        android:id="@id/common_dialog_title_tv"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
@@ -45,7 +45,7 @@
                         android:visibility="gone" />
 
                     <EditText
-                        android:id="@+id/common_dialog_editable_message"
+                        android:id="@id/common_dialog_editable_message"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:padding="@dimen/editText_padding"
@@ -60,7 +60,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/common_dialog_bottom_ll"
+            android:id="@id/common_dialog_bottom_ll"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="0.5dp"
@@ -70,7 +70,7 @@
             android:visibility="visible" >
 
             <Button
-                android:id="@+id/common_dialog_button_left"
+                android:id="@id/common_dialog_button_left"
                 android:layout_width="0.0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="1.0"
@@ -87,7 +87,7 @@
                 android:background="@color/line_platinum" />
 
             <Button
-                android:id="@+id/common_dialog_button_right"
+                android:id="@id/common_dialog_button_right"
                 android:layout_width="0dip"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

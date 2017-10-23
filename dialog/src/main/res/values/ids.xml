@@ -7,4 +7,7 @@
     <item name="common_dialog_bottom_ll" type="id"/>
     <item name="common_dialog_button_left" type="id"/>
     <item name="common_dialog_button_right" type="id"/>
+    <item name="common_dialog_editable_message" type="id"/>
+    <item name="loadingTv" type="id"/>
+
 </resources>
