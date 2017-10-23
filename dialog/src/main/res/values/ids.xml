@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="common_dialog_message_tv" type="id"/>
+    <item name="common_dialog_body_ll" type="id"/>
+    <item name="common_dialog_content_ll" type="id"/>
+    <item name="common_dialog_title_tv" type="id"/>
+    <item name="common_dialog_bottom_ll" type="id"/>
+    <item name="common_dialog_button_left" type="id"/>
+    <item name="common_dialog_button_right" type="id"/>
+</resources>
