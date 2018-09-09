@@ -14,8 +14,6 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.lythonliu.dialog.R;
-
 /**
  * Created by lythonliu on 2015/5/9.
  */
@@ -57,6 +55,8 @@ public class CommonDialog extends Dialog implements android.view.View.OnClickLis
         setCancelable(true);
         setCanceledOnTouchOutside(true);
     }
+
+
 
     private void findViews() {
         mBody_ll = (LinearLayout) findViewById(R.id.common_dialog_body_ll);

@@ -7,7 +7,7 @@ import android.os.Bundle;
 import com.lythonliu.dialog.CommonDialog;
 import com.lythonliu.dialog.LoadingDialog;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends com.lythonliu.TouchBaseActivity {
 
     private LoadingDialog loadingDialog;
 
